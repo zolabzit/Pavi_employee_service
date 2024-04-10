@@ -1,0 +1,42 @@
+/* AnnouncementsAndNews.css */
+
+.announcements-and-news { /* Add a class for the main container */
+  margin: 2rem 0; /* Add some margin for spacing */
+  padding: 1rem; /* Add some padding for visual separation */
+  border: 1px solid hwb(337 3% 19%); /* Create a subtle border */
+  border-radius: 4px; /* Add a slight rounded corner for aesthetics */
+}
+
+.announcements-and-news h2 { /* Style the heading */
+  font-size: 1.25rem; /* Set appropriate heading size */
+  font-weight: bold; /* Make the heading stand out */
+  margin-bottom: 0.75rem; /* Add some space after the heading */
+}
+
+.announcements-and-news ul { /* Style the unordered list */
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.announcements-and-news li { /* Style the list items */
+  margin-bottom: 1rem; /* Add space between list items */
+  padding: 0.5rem 1rem; /* Add some padding for content */
+  border-bottom: 1px solid hwb(332 3% 11%); /* Create a subtle separation line */
+  cursor: pointer; /* Indicate hover/click interaction on hover */
+}
+
+.announcements-and-news li:hover { /* Style on hover */
+  background-color: hsl(162, 94%, 51%); /* Add a light hover background */
+}
+
+.announcements-and-news li strong { /* Style the announcement titles */
+  display: block; /* Make titles take up the full width */
+  margin-bottom: 0.25rem; /* Add space after titles */
+  font-weight: bold; /* Make titles stand out */
+}
+
+.announcements-and-news li p { /* Style the announcement descriptions */
+  font-size: 0.9rem; /* Set appropriate description size */
+  line-height: 1.5; /* Adjust line spacing for readability */
+}

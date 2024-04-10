@@ -1,0 +1,32 @@
+/* Profile.css */
+
+.container {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: hsl(162, 25%, 90%);
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(211, 20%, 77%);
+}
+
+.profile-content {
+  margin-top: 20px;
+}

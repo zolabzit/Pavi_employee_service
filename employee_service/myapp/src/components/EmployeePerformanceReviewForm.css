@@ -1,0 +1,81 @@
+/* EmployeePerformanceReviewForm.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Example font-family; adjust as needed */
+  }
+  .performance-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid hsl(305, 92%, 49%);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(168, 238, 4, 0.1);
+    background-color: #e7ece8cc; /* Add background color if needed */
+  }
+
+  
+  .form-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input, textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .rating-label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .rating {
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #2196F3;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1565C0;
+  }
+  
+  /* Success message styles */
+  .MuiSnackbar-root {
+    bottom: 20px;
+  }
+  
+  .MuiAlert-root {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  

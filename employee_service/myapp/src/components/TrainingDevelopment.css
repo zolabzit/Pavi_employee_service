@@ -1,0 +1,12 @@
+.training-development-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum and maximum width of each column */
+    gap: 20px; /* Adjust the gap between grid items */
+  }
+  
+  .training-development-container > div {
+    padding: 20px;
+    border: 1px solid hsl(157, 90%, 43%);
+    border-radius: 5px;
+  }
+  

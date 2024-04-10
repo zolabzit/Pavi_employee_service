@@ -1,0 +1,42 @@
+
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: hwb(167 2% 10%);
+  }
+  
+  tr:nth-child(even) {
+    background-color: hwb(295 31% 26%);
+  }
+  
+  button {
+    background-color: hwb(315 57% 11%);
+    color: hsla(221, 97%, 46%, 0.815);
+    padding: 30px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: hsl(175, 90%, 47%);
+  }
+  

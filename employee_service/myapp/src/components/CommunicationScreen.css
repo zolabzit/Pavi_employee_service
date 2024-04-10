@@ -1,0 +1,31 @@
+.communication-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .input-group input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input-group button {
+    padding: 50px 50px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input-group button:hover {
+    background-color: #0056b3;
+  }
+  

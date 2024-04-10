@@ -1,0 +1,83 @@
+/* LeaveRequestForm.css */
+
+.leave-request-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out; /* Add animation property */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .leave-request-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    opacity: 0; /* Initially hidden */
+    animation: fadeInLabel 0.5s ease-in-out forwards; /* Add animation property */
+  }
+  
+  @keyframes fadeInLabel {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .leave-request-form input,
+  .leave-request-form textarea,
+  .leave-request-form button {
+    opacity: 0; /* Initially hidden */
+    animation: fadeInInput 0.5s ease-in-out forwards; /* Add animation property */
+  }
+  
+  @keyframes fadeInInput {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .leave-request-form input,
+  .leave-request-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .leave-request-form button {
+    background-color: #4caf50;
+    color: rgb(163, 8, 8);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Add transition property */
+  }
+  
+  .leave-request-form button:hover {
+    background-color: #0a9abe;
+  }
+  

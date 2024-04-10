@@ -1,0 +1,42 @@
+/* PayrollList.css */
+
+/* Container styles */
+.payroll-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fpayroll.html&psig=AOvVaw2njvC1OeRrxLcfT6g62IMF&ust=1710488803298000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJiyj8mh84QDFQAAAAAdAAAAABAE');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Table styles */
+  .payroll-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .payroll-table th,
+  .payroll-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid hsl(187, 93%, 48%);
+  }
+  
+  .payroll-table th {
+    background-color: hsl(155, 93%, 41%);
+    font-weight: bold;
+  }
+  
+  .payroll-table tbody tr:nth-child(even) {
+    background-color: #0adb8b;
+  }
+  
+  /* Heading styles */
+  .payroll-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: hwb(290 4% 18%);
+  }
+  

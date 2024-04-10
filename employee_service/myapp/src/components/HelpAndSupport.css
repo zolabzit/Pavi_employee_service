@@ -1,0 +1,42 @@
+/* HelpAndSupport.css */
+
+.help-container {
+    padding: 20px;
+  }
+  
+  .help-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .help-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 4%); /* Medium text color */
+  }
+  
+  .faq-list {
+    margin-bottom: 30px;
+  }
+  
+  .faq-list-item {
+    padding: 15px;
+    border-bottom: 1px solid #ccc; /* Light border color */
+  }
+  
+  .faq-list-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f811b3; /* Dark text color */
+  }
+  
+  .contact-email {
+    font-size: 1.2rem;
+    color: #0ed87a; /* Medium text color */
+  }
+  

@@ -1,0 +1,28 @@
+/* App.css */
+
+/* App.css */
+
+/* Style the navigation bar */
+.navbar {
+    background-color: hsl(295, 92%, 50%);
+  }
+  
+  .navbar button {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+ 
+  

@@ -1,0 +1,31 @@
+/* components/EmployeeSlogan.css */
+
+.slogan-container {
+    display: flex;
+    align-items: top;
+    justify-content: top;
+    height: 100vh;
+    background-image: url('https://i0.wp.com/juntrax.com/blog/wp-content/uploads/2020/09/Employee-Self-Service-Portal.png?resize=768%2C432&ssl=1'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: hsl(318, 92%, 50%);
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.slogan-text {
+    font-size: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

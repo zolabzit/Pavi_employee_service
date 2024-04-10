@@ -1,0 +1,64 @@
+/* Document.css */
+
+.document-form {
+    margin: 2rem 0; /* Add some margin for spacing */
+    padding: 1rem; /* Add some padding for visual separation */
+    border: 1px solid #ddd; /* Create a subtle border */
+    border-radius: 4px; /* Add a slight rounded corner for aesthetics */
+  }
+  
+  .document-form h2 {
+    font-size: 1.25rem; /* Set appropriate heading size */
+    font-weight: bold; /* Make the heading stand out */
+    margin-bottom: 1rem; /* Add some space after the heading */
+  }
+  
+  .document-form label {
+    display: block; /* Make labels appear on separate lines */
+    margin-bottom: 0.5rem; /* Add some space after labels */
+  }
+  
+  .document-form input[type="text"],
+  .document-form input[type="file"] {
+    width: 100%; /* Make input fields take up full width */
+    padding: 0.5rem; /* Add some padding for content */
+    border: 1px solid #ccc; /* Create borders for input fields */
+    border-radius: 3px; /* Add a slight rounded corner for aesthetics */
+    box-sizing: border-box; /* Ensure padding doesn't affect input width */
+  }
+  
+  .document-form button {
+    padding: 0.75rem 1rem; /* Adjust button padding */
+    margin-right: 0.5rem; /* Add some space between buttons */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Indicate hover/click interaction */
+  }
+  
+  .document-form button:hover {
+    background-color: #eee; /* Add a hover effect */
+  }
+  
+  .document-viewer {
+    /* Styles for the document viewer (if needed) */
+    margin-top: 2rem; /* Add space after the form */
+    padding: 1rem; /* Add some padding for visual separation */
+    border: 1px solid #ddd; /* Create a subtle border */
+    border-radius: 4px; /* Add a slight rounded corner for aesthetics */
+  }
+  
+  .document-viewer h2 {
+    font-size: 1.25rem; /* Set appropriate heading size */
+    font-weight: bold; /* Make the heading stand out */
+    margin-bottom: 1rem; /* Add some space after the heading */
+  }
+  
+  .document-viewer a {
+    color: #007bff; /* Style the document link */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .document-viewer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
